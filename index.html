@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a href="" class="navbar-brand">Chokie.store</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav m-auto ms-3">
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Catalog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Sale</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">About us</a>
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    <button class="btn btn-success my-2 ms-3" data-bs-toggle="modal" data-bs-target="#exampleModal" type="button">Sign in</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-hidden="true" aria-labelledby="exampleModalLabel">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="exampleModalLabel">Form</h4>
+                    <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <div class="row mb-3">
+                            <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
+                                <div class="col-sm-10">
+                                    <input type="email" class="form-control" id="inputEmail">
+                                </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label for="inputPass" class="col-sm-2 col-form-label">Password</label>
+                                <div class="col-sm-10">
+                                    <input type="password" class="form-control" id="inputPass">
+                                </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <button class="btn btn-outline-success">Registration</button>
+                    <button class="btn btn-outline-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <main>
+        <div class="container my-2">
+            <div class="row">
+                <div class="col-12 col-md-5">
+                    <img src="https://i.pinimg.com/736x/0e/9a/40/0e9a40bf46a110f8b5842ae2a4f2fdd5.jpg" alt="img" class="img-fluid">
+                </div>
+                <div class="col-12 col-md-7 text-center my-3">
+                    <h2>Title</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel eum officia libero inventore quo officiis quos nobis atque, expedita commodi mollitia laborum et corporis cumque repudiandae blanditiis quam reiciendis? Atque?</p>
+                </div>
+            </div>
+        </div>
+        <div class="container py-3">
+            <div class="carousel carousel-dark slide mx-auto my-5" id="carouselControls" data-ride="carousel">
+                <div class="carousel-inner mx-auto">
+                    <div class="carousel-item active">
+                        <div class="row d-flex justify-content-center align-content-center p-2">
+                            <div class="col-12 col-md-9 col-lg-4">
+                                <img src="https://i.pinimg.com/564x/16/55/b5/1655b5e1e50e8a5620989ec4efa2bc1d.jpg" alt="img" class="d-block mx-auto img-fluid">
+                            </div>
+                            <div class="col-5 col-lg-4 d-none d-lg-block">
+                                <img src="https://i.pinimg.com/564x/16/55/b5/1655b5e1e50e8a5620989ec4efa2bc1d.jpg" alt="img" class="d-block mx-auto img-fluid ">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-12 col-md-9 col-xl-6 mx-auto">
+                            <img src="https://i.pinimg.com/564x/1e/bb/ae/1ebbae12962b20331b983a649739db45.jpg" alt="img" class="d-block mx-auto img-fluid">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-12 col-md-9 col-xl-6 mx-auto">
+                            <img src="https://i.pinimg.com/564x/c1/a6/bc/c1a6bcf78885721e6196283998e99faf.jpg" alt="img" class="d-block mx-auto img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <a href="#carouselControls" class="carousel-control-prev" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a href="#carouselControls" class="carousel-control-next" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+        </div>
+        <div class="container">
+            <h2 class="title fw-bold text-center primary">Accordion</h2>
+            <div class="accordion my-5 mx-auto col-12 col-sm-10 col-md-8" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Accordion Item #1
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero officia doloribus iste odit consectetur beatae magni enim vitae eligendi dignissimos! Temporibus officiis voluptatum molestias ad voluptate! Ipsa, quam eius. Deserunt asperiores doloremque quia commodi cum, modi maxime quaerat eveniet animi consequuntur, blanditiis tempore in minima ea sed optio fugiat corporis facere, pariatur quam repellat officia reprehenderit esse placeat! Amet voluptatibus, facilis assumenda corrupti fugiat unde omnis dolor delectus nobis aspernatur recusandae, tempora tempore eum commodi minus quod est eligendi. Voluptatem iusto sint voluptate voluptates, placeat recusandae optio alias, obcaecati minima est excepturi. Maxime officiis a quisquam molestias esse quas soluta?
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Accordion Item #2
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, cupiditate, ullam eos esse vitae rem enim tempora inventore ea alias error quaerat earum quod minus vel quidem distinctio omnis magni. Necessitatibus voluptatum debitis, totam minus, quam iusto suscipit sapiente voluptas magnam itaque veritatis nam temporibus at. Delectus sequi voluptatem minima!
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Accordion Item #3
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque consectetur id est nemo dolorum doloribus explicabo, similique cumque blanditiis officia? Unde minima blanditiis voluptatum repellat omnis accusamus quae odit aut animi, expedita officia similique illo veniam placeat dignissimos obcaecati sed nihil eos laboriosam at labore, ex maiores laborum? Doloremque, aliquid est perferendis nulla sint ipsum ratione eum enim excepturi debitis, distinctio quae ullam corporis quam provident nisi? Fugit nobis temporibus ipsum fuga atque voluptas accusantium iure sequi dolores, itaque modi sed a rerum aut ullam provident quas vel id? Quos similique quod ratione eum, dolorem in amet enim! Pariatur culpa magni perferendis iusto nobis vero, possimus molestiae quas dicta est doloribus vel deserunt ab fugit suscipit inventore numquam sint cum quaerat. Sapiente aperiam libero aspernatur cupiditate temporibus, deserunt magni error quam quisquam tenetur explicabo velit, cum incidunt voluptatum sint odit! Fugit necessitatibus sunt eum repellendus voluptas ea eveniet eligendi quisquam.
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="container">
+            <div class="row gy-5 gx-5">
+                <h2 class="text-center mt-5">Title</h2>
+                <div class="col-12 col-sm-6 col-lg-4 text-center my-auto">
+                    <h3>Lorem</h3>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="5em" height="5em" fill="currentColor" class="bi bi-arrow-through-heart" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.854 15.854A.5.5 0 0 1 2 15.5V14H.5a.5.5 0 0 1-.354-.854l1.5-1.5A.5.5 0 0 1 2 11.5h1.793l.53-.53c-.771-.802-1.328-1.58-1.704-2.32-.798-1.575-.775-2.996-.213-4.092C3.426 2.565 6.18 1.809 8 3.233c1.25-.98 2.944-.928 4.212-.152L13.292 2 12.147.854A.5.5 0 0 1 12.5 0h3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.854.354L14 2.707l-1.006 1.006c.236.248.44.531.6.845.562 1.096.585 2.517-.213 4.092-.793 1.563-2.395 3.288-5.105 5.08L8 13.912l-.276-.182a21.86 21.86 0 0 1-2.685-2.062l-.539.54V14a.5.5 0 0 1-.146.354l-1.5 1.5Zm2.893-4.894A20.419 20.419 0 0 0 8 12.71c2.456-1.666 3.827-3.207 4.489-4.512.679-1.34.607-2.42.215-3.185-.817-1.595-3.087-2.054-4.346-.761L8 4.62l-.358-.368c-1.259-1.293-3.53-.834-4.346.761-.392.766-.464 1.845.215 3.185.323.636.815 1.33 1.519 2.065l1.866-1.867a.5.5 0 1 1 .708.708L5.747 10.96Z"/>
+                    </svg>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio natus perferendis neque quas est. Quis!</p>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 text-center my-auto">
+                    <h3>Lorem</h3>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="5em" height="5em" fill="currentColor" class="bi bi-arrow-through-heart" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.854 15.854A.5.5 0 0 1 2 15.5V14H.5a.5.5 0 0 1-.354-.854l1.5-1.5A.5.5 0 0 1 2 11.5h1.793l.53-.53c-.771-.802-1.328-1.58-1.704-2.32-.798-1.575-.775-2.996-.213-4.092C3.426 2.565 6.18 1.809 8 3.233c1.25-.98 2.944-.928 4.212-.152L13.292 2 12.147.854A.5.5 0 0 1 12.5 0h3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.854.354L14 2.707l-1.006 1.006c.236.248.44.531.6.845.562 1.096.585 2.517-.213 4.092-.793 1.563-2.395 3.288-5.105 5.08L8 13.912l-.276-.182a21.86 21.86 0 0 1-2.685-2.062l-.539.54V14a.5.5 0 0 1-.146.354l-1.5 1.5Zm2.893-4.894A20.419 20.419 0 0 0 8 12.71c2.456-1.666 3.827-3.207 4.489-4.512.679-1.34.607-2.42.215-3.185-.817-1.595-3.087-2.054-4.346-.761L8 4.62l-.358-.368c-1.259-1.293-3.53-.834-4.346.761-.392.766-.464 1.845.215 3.185.323.636.815 1.33 1.519 2.065l1.866-1.867a.5.5 0 1 1 .708.708L5.747 10.96Z"/>
+                    </svg>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio natus perferendis neque quas est. Quis!</p>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 text-center my-auto">
+                    <h3>Lorem</h3>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="5em" height="5em" fill="currentColor" class="bi bi-arrow-through-heart" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.854 15.854A.5.5 0 0 1 2 15.5V14H.5a.5.5 0 0 1-.354-.854l1.5-1.5A.5.5 0 0 1 2 11.5h1.793l.53-.53c-.771-.802-1.328-1.58-1.704-2.32-.798-1.575-.775-2.996-.213-4.092C3.426 2.565 6.18 1.809 8 3.233c1.25-.98 2.944-.928 4.212-.152L13.292 2 12.147.854A.5.5 0 0 1 12.5 0h3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.854.354L14 2.707l-1.006 1.006c.236.248.44.531.6.845.562 1.096.585 2.517-.213 4.092-.793 1.563-2.395 3.288-5.105 5.08L8 13.912l-.276-.182a21.86 21.86 0 0 1-2.685-2.062l-.539.54V14a.5.5 0 0 1-.146.354l-1.5 1.5Zm2.893-4.894A20.419 20.419 0 0 0 8 12.71c2.456-1.666 3.827-3.207 4.489-4.512.679-1.34.607-2.42.215-3.185-.817-1.595-3.087-2.054-4.346-.761L8 4.62l-.358-.368c-1.259-1.293-3.53-.834-4.346.761-.392.766-.464 1.845.215 3.185.323.636.815 1.33 1.519 2.065l1.866-1.867a.5.5 0 1 1 .708.708L5.747 10.96Z"/>
+                    </svg>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio natus perferendis neque quas est. Quis!</p>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 text-center my-auto">
+                    <h3>Lorem</h3>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="5em" height="5em" fill="currentColor" class="bi bi-arrow-through-heart" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.854 15.854A.5.5 0 0 1 2 15.5V14H.5a.5.5 0 0 1-.354-.854l1.5-1.5A.5.5 0 0 1 2 11.5h1.793l.53-.53c-.771-.802-1.328-1.58-1.704-2.32-.798-1.575-.775-2.996-.213-4.092C3.426 2.565 6.18 1.809 8 3.233c1.25-.98 2.944-.928 4.212-.152L13.292 2 12.147.854A.5.5 0 0 1 12.5 0h3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.854.354L14 2.707l-1.006 1.006c.236.248.44.531.6.845.562 1.096.585 2.517-.213 4.092-.793 1.563-2.395 3.288-5.105 5.08L8 13.912l-.276-.182a21.86 21.86 0 0 1-2.685-2.062l-.539.54V14a.5.5 0 0 1-.146.354l-1.5 1.5Zm2.893-4.894A20.419 20.419 0 0 0 8 12.71c2.456-1.666 3.827-3.207 4.489-4.512.679-1.34.607-2.42.215-3.185-.817-1.595-3.087-2.054-4.346-.761L8 4.62l-.358-.368c-1.259-1.293-3.53-.834-4.346.761-.392.766-.464 1.845.215 3.185.323.636.815 1.33 1.519 2.065l1.866-1.867a.5.5 0 1 1 .708.708L5.747 10.96Z"/>
+                    </svg>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio natus perferendis neque quas est. Quis!</p>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 text-center my-auto">
+                    <h3>Lorem</h3>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="5em" height="5em" fill="currentColor" class="bi bi-arrow-through-heart" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.854 15.854A.5.5 0 0 1 2 15.5V14H.5a.5.5 0 0 1-.354-.854l1.5-1.5A.5.5 0 0 1 2 11.5h1.793l.53-.53c-.771-.802-1.328-1.58-1.704-2.32-.798-1.575-.775-2.996-.213-4.092C3.426 2.565 6.18 1.809 8 3.233c1.25-.98 2.944-.928 4.212-.152L13.292 2 12.147.854A.5.5 0 0 1 12.5 0h3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.854.354L14 2.707l-1.006 1.006c.236.248.44.531.6.845.562 1.096.585 2.517-.213 4.092-.793 1.563-2.395 3.288-5.105 5.08L8 13.912l-.276-.182a21.86 21.86 0 0 1-2.685-2.062l-.539.54V14a.5.5 0 0 1-.146.354l-1.5 1.5Zm2.893-4.894A20.419 20.419 0 0 0 8 12.71c2.456-1.666 3.827-3.207 4.489-4.512.679-1.34.607-2.42.215-3.185-.817-1.595-3.087-2.054-4.346-.761L8 4.62l-.358-.368c-1.259-1.293-3.53-.834-4.346.761-.392.766-.464 1.845.215 3.185.323.636.815 1.33 1.519 2.065l1.866-1.867a.5.5 0 1 1 .708.708L5.747 10.96Z"/>
+                    </svg>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio natus perferendis neque quas est. Quis!</p>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 text-center my-auto">
+                    <h3>Lorem</h3>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="5em" height="5em" fill="currentColor" class="bi bi-arrow-through-heart" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.854 15.854A.5.5 0 0 1 2 15.5V14H.5a.5.5 0 0 1-.354-.854l1.5-1.5A.5.5 0 0 1 2 11.5h1.793l.53-.53c-.771-.802-1.328-1.58-1.704-2.32-.798-1.575-.775-2.996-.213-4.092C3.426 2.565 6.18 1.809 8 3.233c1.25-.98 2.944-.928 4.212-.152L13.292 2 12.147.854A.5.5 0 0 1 12.5 0h3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.854.354L14 2.707l-1.006 1.006c.236.248.44.531.6.845.562 1.096.585 2.517-.213 4.092-.793 1.563-2.395 3.288-5.105 5.08L8 13.912l-.276-.182a21.86 21.86 0 0 1-2.685-2.062l-.539.54V14a.5.5 0 0 1-.146.354l-1.5 1.5Zm2.893-4.894A20.419 20.419 0 0 0 8 12.71c2.456-1.666 3.827-3.207 4.489-4.512.679-1.34.607-2.42.215-3.185-.817-1.595-3.087-2.054-4.346-.761L8 4.62l-.358-.368c-1.259-1.293-3.53-.834-4.346.761-.392.766-.464 1.845.215 3.185.323.636.815 1.33 1.519 2.065l1.866-1.867a.5.5 0 1 1 .708.708L5.747 10.96Z"/>
+                    </svg>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio natus perferendis neque quas est. Quis!</p>
+                </div>
+                
+            </div>
+        </div>
+    </main>
+    <footer id="footer" class="bg-dark text-light mt-5 py-3">
+        <div class="row d-flex g-4 align-items-center justify-content-center">
+                <a href="" class="footer-title col-12 col-sm-5 col-lg-3 text-center text-light my-3">Chokie.store</a>
+                <p class="d-block col-12 col-sm-12 col-lg-3 px-5 text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium fuga soluta sint eaque aliquid quasi quas perspiciatis, itaque praesentium velit voluptates, dolores numquam necessitatibus error. Nesciunt eius dolorum nam commodi?</p>
+                <ul class="col-12 col-sm-5 col-lg-3 list d-flex justify-content-center gap-3 align-items-center my-3 p-0">
+                    <li class="list-item list-item-inst">
+                        <a href="#" class="btn btn-inst ">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="mediumseagreen" class="bi bi-instagram" viewBox="0 0 16 16">
+                                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                                </svg>
+                        </a>
+                    </li>
+                    <li class="list-item list-item-telegram">
+                        <a href="#" class="btn btn-telegram ">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#f8f9fa" class="bi bi-telegram" viewBox="0 0 16 16">
+                                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="list-item list-item-gmail">
+                        <a href="#" class="btn btn-gmail">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#f8f9fa" class="bi bi-envelope-paper-heart-fill" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="m3 7.5 3.5 2L8 8.75l1.5.75 3.5-2v-6A1.5 1.5 0 0 0 11.5 0h-7A1.5 1.5 0 0 0 3 1.5v6ZM2 3.133l-.941.502A2 2 0 0 0 0 5.4v.313l2 1.173V3.133Zm12 3.753 2-1.173V5.4a2 2 0 0 0-1.059-1.765L14 3.133v3.753Zm-3.693 3.324L16 6.873v6.5l-5.693-3.163Zm5.634 4.274L8 10.072.059 14.484A2 2 0 0 0 2 16h12a2 2 0 0 0 1.941-1.516ZM5.693 10.21 0 13.372v-6.5l5.693 3.338ZM8 1.982C9.664.309 13.825 3.236 8 7 2.175 3.236 6.336.31 8 1.982Z"/>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

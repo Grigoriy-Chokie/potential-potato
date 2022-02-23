@@ -1,0 +1,96 @@
+a.active.focus,
+a.active:focus,
+a.focus,
+a:active.focus,
+a:active:focus,
+a:focus,
+button.active.focus,
+button.active:focus,
+button.focus,
+button:active.focus,
+button:active:focus,
+button:focus,
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn:active:focus,
+.btn:focus {
+    outline: 0!important;
+    outline-color: transparent!important;
+    outline-width: 0!important;
+    outline-style: none!important;
+    box-shadow: 0 0 0 0 rgba(0,123,255,0)!important;
+}
+
+ul{
+    list-style: none;
+}
+.list-item{
+    width: 50px;
+    height: 50px;
+}
+.list-item-inst{
+    background: mediumseagreen;
+    
+    border-radius: 24px;
+    padding: 2px;
+}
+.list-item-inst:hover{
+    background: rgb(132,0,255);
+    background: linear-gradient(45deg, rgba(132,0,255,1) 0%, rgba(255,244,0,1) 100%); 
+}
+.btn-inst{
+    border-radius: 26px;
+    width: 100%;
+    height: 100%;
+    background-color:var(--bs-dark);
+    padding-top: 8px;
+}
+.btn-inst:hover {
+    background-color:var(--bs-ligth);
+}
+.btn-inst:hover svg{
+    fill: white;
+}
+
+
+
+
+.list-item-telegram {
+    background: rgb(0,121,255);
+    background: linear-gradient(45deg, rgba(0,121,255,1) 0%, rgba(171,201,255,1) 100%);
+    border-radius: 24px;
+    padding: 2px;
+}
+.btn-telegram{
+    border-radius: 26px;
+    width: 100%;
+    height: 100%;
+    background-color:var(--bs-dark);
+    padding-top: 8px;
+}
+.btn-telegram:hover {
+    background-color:var(--bs-ligth);
+}
+.list-item-gmail{
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(255,0,10,1) 100%);
+    border-radius: 24px;
+    padding: 2px;
+}
+.btn-gmail{
+    border-radius: 26px;
+    width: 100%;
+    height: 100%;
+    background-color:var(--bs-dark);
+    padding-top: 8px;
+}
+.btn-gmail:hover{
+    background-color:var(--bs-ligth);
+}
+.footer-title{
+    font-size: 32px;
+    text-decoration: none;
+    white-space: nowrap;
+}
